@@ -24,7 +24,7 @@ Both scripts are upstream's. They were run to check these notes, with GNU bash 5
 
 A variant of the simple interest script that uses `bc`, prints two decimals and has tests is in [github-final-project](https://github.com/konethegreat/github-final-project).
 
-Pull requests opened against this repository are closed automatically by `.github/workflows/close_pr.yml`, which comments "Congratulations! You have completed the lab. Closing for maintainence purpose." (the spelling is upstream's).
+Upstream's `.github/workflows/close_pr.yml` is set up to close every newly opened pull request with the comment "Congratulations! You have completed the lab. Closing for maintainence purpose." (the spelling is upstream's). It did not do that on this fork: when a pull request was opened here in October 2026, GitHub started no workflow run and the pull request stayed open.
 
 ---
 
